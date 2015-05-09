@@ -8,7 +8,7 @@ rancher
 [![Build Status](https://img.shields.io/travis/akerl/rancher.svg)](https://travis-ci.org/akerl/rancher)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
-SHORT_DESCRIPTION
+Manage short-lived Linodes for testing. Uses [linodeapi](https://github.com/akerl/linodeapi) gem.
 
 ## Usage
 
