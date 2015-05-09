@@ -12,6 +12,11 @@ Gem::Specification.new do |s|
 
   s.files       = `git ls-files`.split
   s.test_files  = `git ls-files spec/*`.split
+  s.executables = ['rancher']
+
+  s.add_dependency 'ruby-keychain', '~> 0.2.0'
+  s.add_dependency 'mercenary', '~> 0.3.0'
+  s.add_dependency 'linode-api', '~> 0.1.0'
 
   s.add_development_dependency 'rubocop', '~> 0.28.0'
   s.add_development_dependency 'rake', '~> 10.4.0'
