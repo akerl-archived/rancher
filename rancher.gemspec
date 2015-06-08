@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'mercenary', '~> 0.3.0'
   s.add_dependency 'linode-api', '~> 0.1.0'
 
-  s.add_development_dependency 'rubocop', '~> 0.28.0'
+  s.add_development_dependency 'rubocop', '~> 0.32.0'
   s.add_development_dependency 'rake', '~> 10.4.0'
   s.add_development_dependency 'coveralls', '~> 0.7.1'
   s.add_development_dependency 'rspec', '~> 3.1.0'
