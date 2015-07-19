@@ -14,13 +14,13 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files spec/*`.split
   s.executables = ['rancher']
 
-  s.add_dependency 'ruby-keychain', '~> 0.2.0'
+  s.add_dependency 'ruby-keychain', '~> 0.3.0'
   s.add_dependency 'mercenary', '~> 0.3.0'
-  s.add_dependency 'linode-api', '~> 0.1.0'
+  s.add_dependency 'linodeapi', '~> 0.1.0'
 
   s.add_development_dependency 'rubocop', '~> 0.32.0'
   s.add_development_dependency 'rake', '~> 10.4.0'
-  s.add_development_dependency 'coveralls', '~> 0.7.1'
+  s.add_development_dependency 'coveralls', '~> 0.8.0'
   s.add_development_dependency 'rspec', '~> 3.3.0'
   s.add_development_dependency 'fuubar', '~> 2.0.0'
 end
