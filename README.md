@@ -1,3 +1,5 @@
+**Inactive Project:** I've been handling this use case with containers, so I'm not actively developing this project any further.
+
 rancher
 =========
 
