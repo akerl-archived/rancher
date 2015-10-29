@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'ruby-keychain', '~> 0.3.0'
   s.add_dependency 'mercenary', '~> 0.3.0'
-  s.add_dependency 'linodeapi', '~> 0.2.0'
+  s.add_dependency 'linodeapi', '~> 1.0.0'
 
   s.add_development_dependency 'rubocop', '~> 0.34.0'
   s.add_development_dependency 'rake', '~> 10.4.0'
